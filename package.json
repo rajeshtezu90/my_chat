@@ -1,0 +1,26 @@
+{
+  "name": "my-chat",
+  "version": "1.0.0",
+  "description": "Chat app using socket.io",
+  "main": "index.js",
+  "scripts": {
+    "compile": "./node_modules/typescript/bin/tsc",
+    "start": "./node_modules/typescript/bin/tsc && node ./dist/index.js"
+  },
+  "keywords": [
+    "node",
+    "socket.io",
+    "chat"
+  ],
+  "author": "rajeshtezu90@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.15.2",
+    "socket.io": "2.2.0",
+    "typescript": "3.5.2"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.0",
+    "@types/socket.io": "^2.1.2"
+  }
+}
